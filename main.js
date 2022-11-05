@@ -214,7 +214,7 @@ document.querySelectorAll(".mainDivs").forEach(function (el) {
               } else {
                 randomField.innerHTML = "O";
                 arrayOfO.push(randomField);
-                arrayO.forEach(item => {
+                arrayOfO.forEach(item => {
                   if (item.innerHTML === "O") {
                     item.style.pointerEvents = "none"
                   }
